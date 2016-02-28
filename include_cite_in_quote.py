@@ -14,6 +14,10 @@ call inside quotes rather than outside.
 thus becomes:
 
     "This needs proof[@ref]"
+
+Known bug:
++ will not work if a quote is the very last
+element of a paragraph.
 """
 
 q = []
